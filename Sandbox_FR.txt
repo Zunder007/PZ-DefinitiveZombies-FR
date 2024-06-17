@@ -13,6 +13,12 @@ Sandbox_FR = {
 		Sandbox_DefinitiveZombies_MoonPage2 = "[DZ] Moon Settings 2",
 		Sandbox_DefinitiveZombies_SpeechPage = "[DZ] Speech Settings",
 		Sandbox_DefinitiveZombies_TimePage = "[DZ] Time Settings",
+		Sandbox_DefinitiveZombies_DaysPage = "[DZ] Days Settings"
+		Sandbox_DefinitiveZombies_DaysEnable = "Enable Days",
+		Sandbox_DefinitiveZombies_DaysInterval0 = "Days Interval 0",
+		Sandbox_DefinitiveZombies_DaysInterval1 = "Days Interval 1",
+		Sandbox_DefinitiveZombies_DaysInterval2 = "Days Interval 2",
+		
 		Sandbox_DefinitiveZombies_DebugEnable = "Enable Debug",
 		Sandbox_DefinitiveZombies_UpdateInterval = "Update Interval",
 		Sandbox_DefinitiveZombies_UpdateReroll = "Update Reroll",
@@ -80,8 +86,9 @@ Sandbox_FR = {
     Sandbox_DefinitiveZombies_WindIntensityInterval0 = "Wind Intensity interval0",
 		Sandbox_DefinitiveZombies_WindIntensityInterval1 = "Wind Intensity interval1",
 		Sandbox_DefinitiveZombies_WindIntensityInterval2 = "Wind Intensity interval2",
-		Sandbox_DefinitiveZombies_MoonPhaseFullEnable = "Full Moon Enable",
 		
+		
+		Sandbox_DefinitiveZombies_MoonPhaseFullEnable = "Full Moon Enable",
 		Sandbox_DefinitiveZombies_MoonPhaseMoonThreshold = "Moon Threshold",
 		Sandbox_DefinitiveZombies_MoonPhaseInterval0 = "New Moon",
 		Sandbox_DefinitiveZombies_MoonPhaseInterval1 = "Waxing Crescent",
@@ -296,6 +303,19 @@ Sandbox_FR = {
 		Sandbox_DefinitiveZombies_TimeEnable_tooltip = "In-game time will affect the zombie's stats",
 		Sandbox_DefinitiveZombies_TimeInterval0_tooltip = "The required in-game time before the following stats becomes active. This should be the lowest value among the intervals",
 		Sandbox_DefinitiveZombies_TimeInterval1_tooltip = "The required in-game time before the following stats becomes active. This should be the highest value among the intervals",
+		
+		Sandbox_DefinitiveZombies_EntropyPage = "[DZ] Entropy Settings"
+		Sandbox_DefinitiveZombies_EntropyEnable = "Enable Entropy",
+		Sandbox_DefinitiveZombies_EntropyEnable_tooltip = "Zombies react to the number of days the world has been active for.",
+		Sandbox_DefinitiveZombies_EntropyInterval0 = "Entropy interval0",
+		Sandbox_DefinitiveZombies_EntropyInterval0_tooltip = "The number of in-game days which have elasped needed to modify the zombie stats below. This should be the lowest value among the intervals",
+		Sandbox_DefinitiveZombies_EntropyInterval1 = "Entropy interval1",
+		Sandbox_DefinitiveZombies_EntropyInterval1_tooltip = "The number of in-game days which have elasped. Value should be in-between Interval0 and Interval2 ",
+		Sandbox_DefinitiveZombies_EntropyInterval2 = "Entropy interval2",
+		Sandbox_DefinitiveZombies_EntropyInterval2_tooltip = "The number of in-game days which have elasped. This should be the highest value among the intervals",
+		
+		
+		
 		
 		Sandbox_DZ_Speed_Seed_Enable_tooltip = "Enable randomisation for the Speed stat. Chances will be normalised at the end",
 		Sandbox_ DZ_Speed_Seed1_tooltip  = "The chance that the zombie will use the following stat",
